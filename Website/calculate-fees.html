@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Fee Calculator | Next Level Gaming & Esports Arena</title><link rel="stylesheet" href="styles.css"></head><body><header class="navbar">
+    <div class="nav-container">
+
+        <a href="index.html" class="logo-link">
+            <img src="assets/images/Next_Level_Gaming_Esports_Logo.svg"
+                 alt="Next Level Gaming & Esports Arena Logo"
+                 class="logo">
+        </a>
+
+        <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="overview.html">Overview</a><a href="package-details.html">Packages</a><a href="calculate-fees.html" class="active" aria-current="page">Fee Calculator</a><a href="contact.html">Contact</a></nav>
+
+        <a href="calculate-fees.html" class="nav-button">
+            BOOK NOW
+        </a>
+
+    </div>
+</header><main><section class="page-hero"><div class="page-hero-content"><p class="eyebrow">PLAN YOUR SESSION</p><h1>CALCULATE <span>FEES</span></h1><p>Select your gaming experiences to calculate the estimated cost with automatic discounts and VAT.</p></div></section><section class="section"><div class="form-layout"><form id="booking-form" class="form-panel"><h2>YOUR DETAILS</h2><p>Complete your details, choose one or more options and calculate your quote.</p><div class="field-grid"><label>Full name <input id="guest-name" name="name" type="text" autocomplete="name" required maxlength="90" placeholder="Your full name"></label><label>Email address <input id="guest-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></label><label>Contact number <input id="guest-phone" name="phone" type="tel" autocomplete="tel" required pattern="[+0-9 ()-]{7,20}" placeholder="Your phone number"></label><label>Preferred date <input id="guest-date" name="date" type="date" required></label></div><h3>CHOOSE EXPERIENCES</h3><p class="form-note">Prices are per listed session or experience, not per person.</p><div class="options-grid"><label class="option-check"><input type="checkbox" name="experience" value="ultimate"><span><strong>Ultimate Gamer Pass</strong><small>R450.00</small></span></label><label class="option-check"><input type="checkbox" name="experience" value="vip"><span><strong>VIP Gaming Experience</strong><small>R650.00</small></span></label><label class="option-check"><input type="checkbox" name="experience" value="esports"><span><strong>Esports Training Package</strong><small>R550.00</small></span></label><label class="option-check"><input type="checkbox" name="experience" value="birthday"><span><strong>Birthday Party Package</strong><small>R850.00</small></span></label><label class="option-check"><input type="checkbox" name="experience" value="vr"><span><strong>Virtual Reality Experience</strong><small>R300.00</small></span></label><label class="option-check"><input type="checkbox" name="experience" value="racing"><span><strong>Racing Simulator Challenge</strong><small>R280.00</small></span></label><label class="option-check"><input type="checkbox" name="experience" value="escape"><span><strong>Escape Room Challenge</strong><small>R350.00</small></span></label></div><p class="form-note">Automatic discounts: 2 options = 5%; 3 options = 10%; 4 or more = 15%. VAT is 15% on the discounted amount.</p><div id="booking-feedback" class="feedback" role="status" aria-live="polite"></div><button type="submit" class="primary-button form-button">EMAIL BOOKING ENQUIRY</button><p class="form-note">Opens an email draft to skilllabgames@gmail.com. Review and send it in your email app; the booking is not confirmed until the arena replies.</p></form><aside class="form-panel summary-panel"><h2>BOOKING SUMMARY</h2><p id="selection-count" aria-live="polite">0 options selected</p><ul id="selected-list" class="selected-list"><li>Select an experience to see your quote.</li></ul><dl class="totals"><div><dt>Subtotal</dt><dd id="subtotal">R0.00</dd></div><div><dt id="discount-label">Discount (0%)</dt><dd id="discount">−R0.00</dd></div><div><dt>After discount</dt><dd id="after-discount">R0.00</dd></div><div><dt>VAT (15%)</dt><dd id="vat">R0.00</dd></div><div class="grand-total"><dt>TOTAL</dt><dd id="total">R0.00</dd></div></dl><a href="package-details.html" class="outline-button">PACKAGE DETAILS</a></aside></div></section></main><footer>
+
+    <div class="footer-container">
+
+        <div>
+            <img src="assets/images/Next_Level_Gaming_Esports_Logo.svg"
+                 alt="Next Level Gaming & Esports Arena"
+                 class="footer-logo">
+
+            <p>
+                PLAY • COMPETE • LEVEL UP
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="package-details.html">Packages</a>
+            <a href="contact.html">Contact</a>
+        <a href="overview.html">Overview</a><a href="calculate-fees.html">Fee Calculator</a></div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 Next Level Gaming & Esports Arena. All rights reserved.
+    </div>
+
+</footer><script src="script.js" defer></script></body></html>
